@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+
+.navbar {
+    background-color: black;
+    color:white;
+    height:60px;
+    display: flex;
+}
+
+.nav-logo{
+    height:50px;
+    width:120px;
+}
+
+.logo{
+    height:50px;
+    width:120px;
+    background-image: url("prime video logo.jpg");
+    background-size: cover;
+}
+
+.border:hover{
+    border:2px solid white;
+    height:55px;
+}
+
+.nav-list{
+    color: white;
+}
+
+.list{
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    padding:10px;
+}
+
+#list1{
+    padding:10px 15px;
+}
+#list2{
+    padding:10px 15px;
+}
+#list3{
+    padding:10px 15px;
+}
+#list4{
+    padding:10px 15px;
+}
+#list1:hover{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+}
+#list2:hover{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+}
+#list3:hover{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+}
+#list4:hover{
+    background-color: white;
+    color:black;
+    border-radius: 5px;
+}
